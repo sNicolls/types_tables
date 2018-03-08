@@ -1,0 +1,41 @@
+.tableContainer, .tableWrapper{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+}
+.table{
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 2px;
+}
+.headerCell{
+  display: flex;
+  flex-direction: column;
+}
+.tableHeader{
+  margin-left: 5px;
+  border: none;
+  font-size: 18px;
+  color: black;
+}
+.tableHeader::placeholder{
+  color: black
+}
+.tableColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.cellTitle{
+  border: none;
+  text-align: center;
+  font-size: 15px;
+}
+.tableCell{
+  padding-left: 5px;
+  text-align: center;
+}
